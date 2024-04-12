@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSTV1 WORLD TV PLAYER</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Video.js CSS -->
+    <link href="./node_modules/video.js/dist/video-js.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+    </header>
+    <main>
+        <div class="player-container">
+            <!-- Video.js Player -->
+            <video id="video-player" class="video-js vjs-default-skin" controls preload="auto">
+                Your browser does not support the video element.
+            </video>
+        </div>
+        <div class="playlist-container">
+            <!-- Search Bar -->
+            <input type="text" id="search-bar" class="search-bar" placeholder="Search...">
+            <!-- Group Tabs -->
+            <div class="tabs-container" id="group-tabs">
+                <!-- Group tabs will be populated dynamically by your JavaScript -->
+                <!-- Example: <div class="group-tab" data-group="news">News</div> -->
+
+            </div>
+            <!-- Playlist Items -->
+            <div id="playlist" class="playlist-items">
+                <!-- Channels will be populated dynamically by your JavaScript -->
+                <!-- Example: <div class="channel" data-group="news">CNN</div> -->
+            </div>
+        </div>
+    </main>
+    <!-- Include Video.js JavaScript -->
+    <script src="./node_modules/video.js/dist/video.min.js"></script>
+    <!-- Include your custom JavaScript (script.js) to populate channels -->
+    <script src="script.js"></script>
+</body>
+</html>

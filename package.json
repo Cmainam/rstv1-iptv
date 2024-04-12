@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "videojs": "^1.0.0"
+  },
+  "name": "noma",
+  "version": "1.0.0",
+  "description": "iptv player web app",
+  "main": "script.js",
+  "devDependencies": {
+    "coffee-script": "^1.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iptv",
+    "free",
+    "player"
+  ],
+  "author": "Sayonet Dev.",
+  "license": "ISC"
+}
