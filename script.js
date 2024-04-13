@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         preload: 'auto'
     });
 
-    const playlistUrl = 'https://m3u.ch/pl/9ac3db698c37446a1fe2811fe93c8533_89831d2052d99038edd0275cddf93560.m3u';
+    const playlistUrl = 'playlist.m3u';
     fetchAndParsePlaylist(playlistUrl);
 
     function fetchAndParsePlaylist(playlistUrl) {
